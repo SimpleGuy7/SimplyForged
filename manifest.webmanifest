@@ -1,0 +1,29 @@
+{
+ "name": "Simple Math",
+ "short_name": "Simple Math",
+ "description": "Every basic calculation explained in plain steps.",
+ "start_url": "/",
+ "scope": "/",
+ "display": "standalone",
+ "orientation": "portrait",
+ "background_color": "#e6e6e6",
+ "theme_color": "#141416",
+ "icons": [
+  {
+   "src": "/pwa-192x192.png",
+   "sizes": "192x192",
+   "type": "image/png"
+  },
+  {
+   "src": "/pwa-512x512.png",
+   "sizes": "512x512",
+   "type": "image/png"
+  },
+  {
+   "src": "/maskable-icon-512x512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
+  }
+ ]
+}

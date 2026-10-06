@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<!-- PWA (vite-plugin-pwa) manifest values: name "Simple Math", short_name "Simple Math", display "standalone", theme_color "#141416", background_color "#e6e6e6", icons from /public (pwa-192x192.png, pwa-512x512.png, maskable-icon-512x512.png) -->
+<html lang="en" data-t="d">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, interactive-widget=resizes-content">
+<title>Simple Math</title>
+<meta name="description" content="Every basic calculation explained in plain steps.">
+<meta name="theme-color" content="#141416">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Simple Math">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect width='512' height='512' rx='112' fill='%23e6e6e6'/><path transform='translate(147.1 87.0) scale(1.070)' fill='%2317171a' d='M188.8 281.5L187.0 283.0L178.8 293.2L174.8 297.5L174.5 298.2L169.0 305.0L169.0 306.2L169.5 307.2L175.8 314.8L177.0 315.8L178.8 315.8L180.0 314.5ZM169.8 261.5L169.0 261.5L159.5 266.2L143.2 273.5L125.8 282.0L124.0 282.5L116.0 286.2L113.8 287.8L112.8 289.2L113.0 292.2L117.5 308.8L118.5 311.2L118.5 312.8L120.2 315.2L121.2 315.8L123.8 315.8L126.0 314.0ZM160.2 234.2L159.2 233.8L57.2 234.2L54.8 235.8L53.2 238.8L48.5 267.8L46.8 276.0L47.0 280.2L47.8 281.5L50.2 283.5L52.0 284.0L55.2 283.5ZM0.0 192.8L0.0 196.8L1.0 199.0L2.2 200.8L5.8 202.8L164.2 202.5L161.8 201.0L156.8 199.0L154.8 197.8L141.2 191.8L135.5 188.8L131.0 187.0L125.8 184.2L124.0 183.8L115.5 179.5L109.0 176.8L106.5 175.2L105.2 175.0L103.8 174.0L96.8 171.0L93.8 169.2L93.0 169.2L87.8 166.5L86.0 166.0L70.0 158.2L39.2 144.2L35.8 144.2L33.2 145.2L30.5 148.0L6.5 183.0L4.8 185.0L4.2 186.2L3.0 187.5ZM17.5 85.5L16.5 88.5L16.8 91.5L18.0 94.0L21.0 96.5L22.2 96.8L38.8 104.8L39.5 104.8L46.8 108.5L50.8 110.0L53.2 111.5L71.8 119.8L73.2 120.8L103.5 134.5L113.0 139.2L125.0 144.8L125.8 144.8L127.0 145.8L127.8 145.8L137.2 150.5L138.5 150.8L141.0 152.2L164.8 163.0L174.2 167.8L175.0 167.5L151.2 139.2L150.0 137.2L148.8 136.2L130.8 114.5L121.8 104.2L121.5 103.5L116.8 98.2L80.5 54.8L78.2 53.0L75.8 52.2L73.2 52.2L71.0 53.0L56.5 61.5L55.8 62.2L54.8 62.5L54.0 63.2L41.0 70.5L37.8 72.8L31.0 76.2L24.2 80.5L22.8 81.0L21.8 82.0L19.0 83.5ZM99.0 7.2L97.2 9.5L96.5 12.2L96.8 16.8L98.0 19.0L141.5 70.5L142.8 72.5L146.8 76.8L179.5 116.0L188.5 126.2L195.2 134.8L203.2 143.8L203.2 142.0L202.0 138.8L197.8 121.5L197.0 120.0L191.2 97.5L190.5 96.0L190.0 92.8L189.2 91.2L189.0 89.2L187.0 82.8L187.0 81.5L185.5 77.2L184.8 73.2L184.2 72.5L184.0 70.5L182.0 64.2L182.0 63.0L180.5 58.5L180.0 55.5L179.2 54.0L177.8 47.2L174.2 35.2L174.0 33.0L173.5 32.5L172.0 25.8L171.2 24.2L171.0 22.2L169.8 18.5L169.8 17.2L169.2 16.5L169.0 14.5L168.0 12.0L166.5 5.8L165.2 3.5L163.0 1.2L159.8 0.0L155.5 0.0L150.2 0.8L143.0 1.0L141.8 1.5L139.0 1.5L136.8 2.0L127.2 2.5L125.8 3.0L118.8 3.2L117.5 3.8L117.0 3.5L102.5 5.0Z'/></svg>">
+<link rel="apple-touch-icon" href="/apple-touch-icon-180x180.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<style>
+html{height:100%;background:#141416;scroll-behavior:smooth;-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:transparent;overscroll-behavior:none}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+:root{--o:#ff5a1f}
+:root[data-t=d]{--bg:#141416;--hero:#1f1f23;--fg:#fff;--mut:#9a9aa3;--card:#232328;--ln:#34343a}
+:root[data-t=l]{--bg:#f5f5f5;--hero:#d9d9dc;--fg:#161618;--mut:#6b6b74;--card:#fff;--ln:#dcdce0}
+body{margin:0;min-height:100dvh;background:var(--bg);color:var(--fg);font:16px/1.45 "Inter","Helvetica Neue",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;overscroll-behavior:none;transition:background .6s,color .6s}
+::selection{background:var(--o);color:#fff}
+button{font-family:inherit;-webkit-appearance:none;appearance:none;touch-action:manipulation;user-select:none;-webkit-user-select:none;-webkit-touch-callout:none;cursor:pointer;transition:transform .15s,border-color .2s}
+button:active{transform:scale(.95)}
+button:focus-visible{outline:2px solid var(--o);outline-offset:2px}
+header{position:sticky;top:0;z-index:5;display:flex;align-items:center;gap:12px;padding:calc(env(safe-area-inset-top,0px) + 12px) 16px 12px;background:color-mix(in srgb,var(--bg) 82%,transparent);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);opacity:0;transition:background .6s}
+header.a{animation:up .8s cubic-bezier(.2,.8,.2,1) both}
+.logo{flex:none;display:flex;align-items:center;gap:6px;font-size:15px;font-weight:700;letter-spacing:-.02em}
+.lg{flex:none;width:14px;height:22px;fill:currentColor}
+nav{flex:1;min-width:0;display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;-webkit-mask-image:linear-gradient(90deg,#000 88%,transparent);mask-image:linear-gradient(90deg,#000 88%,transparent)}
+nav::-webkit-scrollbar{display:none}
+nav button{flex:none;padding:8px 14px;border-radius:99px;border:1px solid var(--ln);background:transparent;color:var(--fg);font-size:13px;font-weight:600;line-height:1}
+nav button.on{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.w{max-width:1000px;margin:0 auto}
+#pg{transition:opacity .28s,transform .28s,filter .28s}
+#pg.out{opacity:0;transform:translateY(22px) scale(.985);filter:blur(8px)}
+.hero{position:relative;overflow:hidden;container-type:inline-size;min-height:min(78svh,560px);padding:28px 20px;background:var(--hero);border-radius:0 0 36px 36px;transition:background .6s}
+.hl{position:relative;z-index:2;max-width:22ch}
+h1{margin:0 0 20px;font-size:clamp(26px,7.4vw,42px);line-height:1.05;font-weight:600;letter-spacing:-.035em}
+h1 span,h2 span{color:var(--mut)}
+.word{position:absolute;z-index:1;left:0;right:0;bottom:0;margin-bottom:-.05em;padding:0 2.2cqw;font-size:calc(var(--z)*1cqw);line-height:.74;font-weight:500;letter-spacing:-.06em;color:#fff;white-space:nowrap}
+.word span{display:inline-block;animation:rise .9s cubic-bezier(.2,.8,.2,1) both;animation-delay:calc(var(--i)*55ms + .15s)}
+@keyframes rise{from{transform:translateY(105%)}to{transform:none}}
+.st{position:absolute;z-index:0;width:62%;height:9%;border-radius:50%;filter:blur(20px);animation:drift 7s ease-in-out infinite alternate}
+.s1{top:36%;left:-8%;background:linear-gradient(90deg,transparent,#ff3d00 45%,#ffb347 75%,transparent)}
+.s2{top:50%;right:-12%;background:linear-gradient(90deg,transparent,#c81d00 40%,#ff5a1f 70%,transparent);animation-duration:9s;animation-direction:alternate-reverse}
+@keyframes drift{from{transform:translateX(-6%) scaleX(.9)}to{transform:translateX(14%) scaleX(1.15)}}
+.pill{display:inline-flex;align-items:center;gap:12px;padding:6px 22px 6px 6px;border:0;border-radius:99px;background:var(--card);color:var(--fg);font-size:15px;font-weight:600}
+.pill i{width:40px;height:40px;border-radius:50%;background:var(--o);display:grid;place-items:center;transition:transform .2s}
+.pill i.r svg{transform:rotate(180deg)}
+.calc{padding:36px 20px 40px;scroll-margin-top:70px}
+h2{margin:0 0 20px;font-size:clamp(24px,6vw,34px);line-height:1.1;font-weight:600;letter-spacing:-.03em}
+.row{display:grid;grid-template-columns:1fr auto 1fr;gap:8px;align-items:start}
+.row>i{max-width:72px;padding-top:24px;font-size:13px;font-style:normal;font-weight:600;color:var(--mut);text-align:center}
+label{display:block;min-width:0}
+input{width:100%;padding:18px 16px;border:0;border-radius:22px;background:var(--card);color:var(--fg);font-family:inherit;font-size:30px;font-weight:500;letter-spacing:-.02em;outline:0;-moz-appearance:textfield;appearance:textfield;transition:box-shadow .2s}
+input::-webkit-inner-spin-button,input::-webkit-outer-spin-button{-webkit-appearance:none;margin:0}
+input:focus{box-shadow:0 0 0 2px var(--o)}
+label span{display:block;margin:8px 4px 0;font-size:14px;color:var(--mut)}
+.ans{margin:28px 0 32px;padding-top:20px;border-top:1px solid var(--ln)}
+.ans small{color:var(--mut);font-weight:500}
+#r{display:block;font-size:clamp(48px,15vw,104px);line-height:1.05;font-weight:500;letter-spacing:-.05em;color:var(--o);overflow-wrap:anywhere}
+h3{margin:0 0 12px;font-size:18px;font-weight:600;letter-spacing:-.02em}
+.steps{counter-reset:s;list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+.steps li{counter-increment:s;min-height:128px;padding:18px;border-radius:26px;background:var(--card);display:flex;flex-direction:column;justify-content:space-between;gap:16px;font-size:15px}
+.steps li::before{content:counter(s,decimal-leading-zero);color:var(--o);font-size:30px;font-weight:500;line-height:1}
+.steps.e li::before{display:none}
+.tip{margin:12px 0 0;padding:22px;border-radius:28px;background:var(--o);color:#1c0900;font-size:18px;font-weight:500;line-height:1.3}
+.nx{display:flex;flex-wrap:wrap;gap:10px;margin-top:36px}
+.a{animation:up .8s cubic-bezier(.2,.8,.2,1) both;animation-delay:var(--d,0ms)}
+@keyframes up{from{opacity:0;transform:translateY(26px)}to{opacity:1;transform:none}}
+#ld{position:fixed;inset:0;z-index:99;display:flex;flex-direction:column;justify-content:flex-end;padding:calc(env(safe-area-inset-top,0px) + 20px) 20px calc(env(safe-area-inset-bottom,0px) + 28px);background:#0f0f11;color:#fff;border-radius:0 0 36px 36px;transition:transform .9s cubic-bezier(.76,0,.24,1)}
+#ld.done{transform:translateY(-101%)}
+#ld .logo{margin-bottom:auto}
+.lw{display:flex;align-items:flex-start;font-size:clamp(110px,34vw,260px);line-height:.8;font-weight:500;letter-spacing:-.07em}
+.lw span{margin:.15em 0 0 .08em;font-size:.28em;letter-spacing:0;color:var(--o)}
+#ld p{margin:18px 0 14px;color:#85858e}
+.bar{height:3px;border-radius:3px;background:#2a2a2f;overflow:hidden}
+.bar i{display:block;height:100%;background:var(--o);transform:scaleX(0);transform-origin:left}
+@media(hover:hover) and (pointer:fine){nav button:hover{border-color:var(--fg)}.pill:hover i{transform:translateX(3px)}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-delay:0ms!important;transition-duration:.01ms!important}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="lg" viewBox="0 0 203.5 315.8"><path d="M188.8 281.5L187.0 283.0L178.8 293.2L174.8 297.5L174.5 298.2L169.0 305.0L169.0 306.2L169.5 307.2L175.8 314.8L177.0 315.8L178.8 315.8L180.0 314.5ZM169.8 261.5L169.0 261.5L159.5 266.2L143.2 273.5L125.8 282.0L124.0 282.5L116.0 286.2L113.8 287.8L112.8 289.2L113.0 292.2L117.5 308.8L118.5 311.2L118.5 312.8L120.2 315.2L121.2 315.8L123.8 315.8L126.0 314.0ZM160.2 234.2L159.2 233.8L57.2 234.2L54.8 235.8L53.2 238.8L48.5 267.8L46.8 276.0L47.0 280.2L47.8 281.5L50.2 283.5L52.0 284.0L55.2 283.5ZM0.0 192.8L0.0 196.8L1.0 199.0L2.2 200.8L5.8 202.8L164.2 202.5L161.8 201.0L156.8 199.0L154.8 197.8L141.2 191.8L135.5 188.8L131.0 187.0L125.8 184.2L124.0 183.8L115.5 179.5L109.0 176.8L106.5 175.2L105.2 175.0L103.8 174.0L96.8 171.0L93.8 169.2L93.0 169.2L87.8 166.5L86.0 166.0L70.0 158.2L39.2 144.2L35.8 144.2L33.2 145.2L30.5 148.0L6.5 183.0L4.8 185.0L4.2 186.2L3.0 187.5ZM17.5 85.5L16.5 88.5L16.8 91.5L18.0 94.0L21.0 96.5L22.2 96.8L38.8 104.8L39.5 104.8L46.8 108.5L50.8 110.0L53.2 111.5L71.8 119.8L73.2 120.8L103.5 134.5L113.0 139.2L125.0 144.8L125.8 144.8L127.0 145.8L127.8 145.8L137.2 150.5L138.5 150.8L141.0 152.2L164.8 163.0L174.2 167.8L175.0 167.5L151.2 139.2L150.0 137.2L148.8 136.2L130.8 114.5L121.8 104.2L121.5 103.5L116.8 98.2L80.5 54.8L78.2 53.0L75.8 52.2L73.2 52.2L71.0 53.0L56.5 61.5L55.8 62.2L54.8 62.5L54.0 63.2L41.0 70.5L37.8 72.8L31.0 76.2L24.2 80.5L22.8 81.0L21.8 82.0L19.0 83.5ZM99.0 7.2L97.2 9.5L96.5 12.2L96.8 16.8L98.0 19.0L141.5 70.5L142.8 72.5L146.8 76.8L179.5 116.0L188.5 126.2L195.2 134.8L203.2 143.8L203.2 142.0L202.0 138.8L197.8 121.5L197.0 120.0L191.2 97.5L190.5 96.0L190.0 92.8L189.2 91.2L189.0 89.2L187.0 82.8L187.0 81.5L185.5 77.2L184.8 73.2L184.2 72.5L184.0 70.5L182.0 64.2L182.0 63.0L180.5 58.5L180.0 55.5L179.2 54.0L177.8 47.2L174.2 35.2L174.0 33.0L173.5 32.5L172.0 25.8L171.2 24.2L171.0 22.2L169.8 18.5L169.8 17.2L169.2 16.5L169.0 14.5L168.0 12.0L166.5 5.8L165.2 3.5L163.0 1.2L159.8 0.0L155.5 0.0L150.2 0.8L143.0 1.0L141.8 1.5L139.0 1.5L136.8 2.0L127.2 2.5L125.8 3.0L118.8 3.2L117.5 3.8L117.0 3.5L102.5 5.0Z"/></symbol></svg>
+<div id="ld"><div class="logo"><svg class="lg" aria-hidden="true"><use href="#lg"/></svg>Simple Math</div><div class="lw"><b id="pc">0</b><span>%</span></div><p>Getting the numbers ready</p><div class="bar"><i id="bar"></i></div></div>
+<header><div class="logo"><svg class="lg" aria-hidden="true"><use href="#lg"/></svg>Simple Math</div><nav id="nav" aria-label="Pick a calculation"></nav></header>
+<div class="w"><main id="pg"></main></div>
+<script>
+const $=id=>document.getElementById(id);
+const n=x=>(+x.toFixed(6)).toLocaleString('en-US',{maximumFractionDigits:6});
+const rep=(a,b,j)=>Array(b).fill(n(a)).join(j);
+const RM=matchMedia('(prefers-reduced-motion:reduce)').matches;
+const ARW='<svg width="16" height="16" viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+const ops=[
+{id:'add',k:'Add',w:'Add',z:42,t:'d',m:'+',h:['Add.','Put numbers together to make a bigger one.'],f:['First number','Second number'],v:[12,5],
+ run:(a,b)=>({r:n(a+b),s:[`Start at ${n(a)}.`,`Count up ${n(b)} more.`,`You land on ${n(a+b)}.`]})},
+{id:'subtract',k:'Subtract',w:'Subtract',z:24,t:'l',m:'−',h:['Subtract.','Take one number away from another.'],f:['Start with','Take away'],v:[20,8],
+ run:(a,b)=>({r:n(a-b),s:[`Start at ${n(a)}.`,`Count back ${n(b)}.`,`You land on ${n(a-b)}.`,`Check it: ${n(a-b)} + ${n(b)} = ${n(a)}.`]})},
+{id:'multiply',k:'Multiply',w:'Multiply',z:26,t:'d',m:'×',h:['Multiply.','Adding the same number again and again, but faster.'],f:['Number','Times'],v:[6,4],
+ run:(a,b)=>{const r=a*b,g=Number.isInteger(b)&&b>1&&b<=8;return{r:n(r),s:[`${n(a)} × ${n(b)} means "${n(b)} groups of ${n(a)}".`,g?`Add them up: ${rep(a,b,' + ')}.`:'Multiply the two numbers together.',`Answer: ${n(r)}.`]}}},
+{id:'divide',k:'Divide',w:'Divide',z:32,t:'l',m:'÷',h:['Divide.','Share a number into equal parts.'],f:['Split this','Into this many parts'],v:[20,4],
+ run:(a,b)=>{if(!b)return{e:"You can't split something into 0 parts. Type a different second number."};const r=a/b,l=Number.isInteger(a)&&Number.isInteger(b)&&a%b;return{r:n(r),s:[`Split ${n(a)} into ${n(b)} equal parts.`,`Each part gets ${n(r)}.`,...(l?[`That's ${n(Math.trunc(a/b))} whole parts with ${n(a%b)} left over.`]:[]),`Check it: ${n(r)} × ${n(b)} = ${n(r*b)}.`]}}},
+{id:'percent',k:'Percent of',w:'Percent',z:26,t:'d',m:'% of',h:['Percent of.','Find a part of a number, like 17% of 30.'],f:['Percent','Of this number'],v:[17,30],
+ tip:'Shortcut: 10% of any number is that number with the decimal point moved one place left. 10% of 30 is 3.',
+ run:(p,x)=>{const d=p/100,r=d*x;return{r:n(r),s:[`"Percent" means "out of 100". So ${n(p)}% is ${n(p)} ÷ 100 = ${n(d)}.`,`Multiply by the number: ${n(d)} × ${n(x)} = ${n(r)}.`,`So ${n(p)}% of ${n(x)} is ${n(r)}.`]}}},
+{id:'whatpercent',k:'What %',w:'What %',z:25,t:'l',m:'is what % of',h:['What percent.','How big is one number compared to another?'],f:['This number','Out of'],v:[6,40],
+ run:(a,b)=>{if(!b)return{e:"You can't take a percent of 0. Type a different second number."};const q=a/b,r=q*100;return{r:n(r)+'%',s:[`Make a fraction: ${n(a)} out of ${n(b)} is ${n(a)} ÷ ${n(b)} = ${n(q)}.`,`Multiply by 100 to turn it into a percent: ${n(q)} × 100 = ${n(r)}.`,`So ${n(a)} is ${n(r)}% of ${n(b)}.`]}}},
+{id:'change',k:'Change',w:'Change',z:27,t:'d',m:'to',h:['Percent change.','How much did it go up or down?'],f:['Old number','New number'],v:[80,100],
+ run:(a,b)=>{if(!a)return{e:"The old number can't be 0, because there's nothing to compare with."};const d=b-a,q=d/a;return{r:n(Math.abs(q*100))+'%'+(q>0?' up':q<0?' down':''),s:[`Find the change: ${n(b)} − ${n(a)} = ${n(d)}.`,`Divide by the old number: ${n(d)} ÷ ${n(a)} = ${n(q)}.`,`Multiply by 100: ${n(q)} × 100 = ${n(q*100)}%.`,q>0?'A positive result means it went up.':q<0?'A negative result means it went down.':'Nothing changed.']}}},
+{id:'power',k:'Power',w:'Power',z:32,t:'l',m:'to the power of',h:['Powers.','Multiply a number by itself several times.'],f:['Number','Power'],v:[2,5],
+ run:(a,b)=>{const r=a**b;if(!isFinite(r))return{e:"That doesn't give a real number. Try different numbers."};const g=Number.isInteger(b)&&b>1&&b<=6;return{r:n(r),s:[`"${n(a)} to the power of ${n(b)}" means multiply ${n(a)} by itself ${n(b)} times.`,g?`${rep(a,b,' × ')} = ${n(r)}.`:`Answer: ${n(r)}.`]}}}
+];
+let cur=-1,busy=0;
+function go(i){
+  if(busy||i===cur)return;busy=1;$('pg').classList.add('out');
+  setTimeout(()=>{pick(i);scrollTo({top:0,behavior:'instant'});$('pg').classList.remove('out');busy=0},RM?0:280);
+}
+function pick(i){
+  cur=i;const o=ops[i],p=(i+ops.length-1)%ops.length,x=(i+1)%ops.length;
+  document.documentElement.dataset.t=o.t;
+  document.querySelector('meta[name=theme-color]').content=o.t==='d'?'#141416':'#f5f5f5';
+  try{history.replaceState(null,'','#'+o.id)}catch(e){}
+  document.querySelectorAll('nav button').forEach((b,j)=>{b.classList.toggle('on',j===i);if(j===i)b.scrollIntoView({inline:'center',block:'nearest'})});
+  $('pg').innerHTML=`
+<section class="hero" style="--z:${o.z}"><i class="st s1"></i><i class="st s2"></i>
+<div class="hl"><h1 class="a"><b>${o.h[0]}</b> <span>${o.h[1]}</span></h1><button class="pill a" style="--d:120ms" data-sc><i>${ARW}</i>Try it now</button></div>
+<div class="word" aria-hidden="true">${[...o.w].map((c,j)=>`<span style="--i:${j}">${c===' '?'&nbsp;':c}</span>`).join('')}</div></section>
+<section class="calc" id="calc"><h2 class="a"><b>Try it</b> <span>with your own numbers.</span></h2>
+<div class="row a" style="--d:80ms"><label><input type="number" inputmode="decimal" step="any" value="${o.v[0]}"><span>${o.f[0]}</span></label><i>${o.m}</i><label><input type="number" inputmode="decimal" step="any" value="${o.v[1]}"><span>${o.f[1]}</span></label></div>
+<div class="ans a" style="--d:160ms" aria-live="polite"><small>Answer</small><b id="r"></b></div>
+<h3 class="a" style="--d:200ms">How it works</h3><ol id="s" class="steps"></ol>
+${o.tip?`<p class="tip a" style="--d:420ms">${o.tip}</p>`:''}
+<div class="nx a" style="--d:480ms"><button class="pill" data-go="${p}"><i class="r">${ARW}</i>${ops[p].k}</button><button class="pill" data-go="${x}"><i>${ARW}</i>${ops[x].k}</button></div></section>`;
+  $('pg').querySelectorAll('input').forEach(e=>e.oninput=()=>calc(0));
+  calc(1);
+}
+function calc(anim){
+  const o=ops[cur],v=[...$('pg').querySelectorAll('input')].map(e=>parseFloat(e.value));
+  let out;
+  if(v.some(isNaN))out={e:'Type a number in both boxes to see the answer.'};
+  else out=o.run(...v);
+  $('r').textContent=out.e?'—':out.r;
+  $('s').className='steps'+(out.e?' e':'');
+  $('s').innerHTML=(out.e?[out.e]:out.s).map((t,i)=>`<li class="${anim?'a':''}" style="--d:${240+i*90}ms">${t}</li>`).join('');
+}
+document.addEventListener('click',e=>{
+  const b=e.target.closest('[data-go]');
+  if(b)return go(+b.dataset.go);
+  if(e.target.closest('[data-sc]'))$('calc').scrollIntoView({behavior:'smooth'});
+});
+function start(){
+  const i=ops.findIndex(o=>o.id===location.hash.slice(1));
+  $('nav').innerHTML=ops.map((o,j)=>`<button data-go="${j}">${o.k}</button>`).join('');
+  document.querySelector('header').classList.add('a');
+  pick(i<0?0:i);
+}
+(function boot(){
+  const t0=performance.now(),D=RM?150:1200;
+  (function f(t){
+    const p=Math.min(1,(t-t0)/D),e=1-Math.pow(1-p,3);
+    $('pc').textContent=Math.round(e*100);$('bar').style.transform=`scaleX(${e})`;
+    if(p<1)return requestAnimationFrame(f);
+    $('ld').classList.add('done');start();setTimeout(()=>$('ld').remove(),1000);
+  })(t0);
+})();
+if('serviceWorker' in navigator)addEventListener('load',()=>navigator.serviceWorker.register('/sw.js').catch(()=>{}));
+</script>
+</body>
+</html>
